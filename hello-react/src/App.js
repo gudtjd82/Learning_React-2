@@ -1,13 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Component, Fragment } from "react";
-import MyComponent from "./MyComponent";
+import Say from "./Say";
+import Array from "./Array";
 
-class App extends Component {
-  render() {
-    const name = "PSH";
-    return <MyComponent>REACT</MyComponent>;
-  }
-}
+const App = () => {
+    return <Array></Array>;
+};
 
 export default App;
